@@ -1,0 +1,12 @@
+{
+  "users": [
+    { "id": 1, "username": "student1", "password": "123456", "role": "member", "name": "张三" },
+    { "id": 2, "username": "admin", "password": "admin123", "role": "admin", "name": "管理员" }
+  ],
+  "punches": [
+    { "id": 1, "userId": 1, "date": "2026-11-13", "temp": 36.5, "status": "正常", "note": "无不适" }
+  ],
+  "notices": [
+    { "id": 1, "title": "打卡提醒", "content": "请于每日22点前完成健康打卡", "top": true, "createTime": "2026-11-13" }
+  ]
+}
